@@ -8,6 +8,45 @@
     /* font-weight: 400; */
 }
 
+html{
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(211, 22, 211);
+}
+.nav2{
+    display: none;
+}
+.m-nav{
+    box-shadow: 0 0 20px rgb(33 33 33 / 30%);
+    position: absolute;
+    top: 6.5rem;
+    right: 4rem;
+    background-color: white;
+    padding: 18px 20px;
+    width: 33vmin;
+    border-radius: 4px;
+}
+.m-nav-i{
+    margin: 5px 0px;
+    padding: 8px 9px;
+    font-size: 19px;
+    color: rgb(142 142 142);
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.m-nav-i:hover{
+    background-color: #e2e2e2ea;
+    border-radius: 5px;
+    color: rgb(211, 22, 211);
+}
 .navbar{
     position: fixed;
     width: 100%;
@@ -61,6 +100,7 @@
 }
 .right{
     display: flex;
+    cursor: pointer;
 }
 .right img{
     width: 30px;
@@ -153,14 +193,13 @@
     font-size: 45px;
     text-align: center;
     font-weight: 700;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
 }
 .packages{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 54px;
+    margin-top: 4rem;
 }
 .cards{
     justify-content: center;
@@ -227,7 +266,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 54px;
+    margin-top: 5rem;
 }
 
 .ser-cards{
@@ -269,7 +308,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 54px;
+    margin-top: 5rem;
 }
 .numCards{
     display: flex;
@@ -278,9 +317,9 @@ p{
     flex-wrap: wrap;
 }
 .num-card{
+    min-height: 41vmin;
     width: 48vmin;
-    height: 36vmin;
-    padding: 40px 15px;
+    padding: 43px 15px;
     margin: 10px;
     background-color: white;
     box-shadow: 0 0 11px rgb(33 33 33 / 30%);
@@ -298,6 +337,85 @@ p{
     text-align: center;
     font-size: 47px;
     font-weight: 700;
-    color: #9553a0;
+    color: rgb(211, 22, 211);
     margin: 22px 0px;
+}
+.clientRev{
+    margin-top: 5rem;
+}
+.rBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 11px rgb(33 33 33 / 30%);
+}
+.cImg{
+    height: 87px;
+    width: 87px;
+    margin-bottom: 8px;
+}
+.cImg img{
+    height: 100%;
+    width: 100%;
+}
+.cC{
+    text-align: center;
+    margin: 14px 0px;
+}
+.starImg{
+    width: 152px;
+}
+.starImg img{
+    height: 100%;
+    width: 100%;
+}
+.contactUs{
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+.contactF{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contactF form{
+    width: 65%;
+}
+.form-control{
+    border-radius: 0;
+    box-shadow: 0 0 9px rgb(33 33 33 / 30%);
+    font-size: 18px;
+}
+.msgBtn{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 38px 11px;
+}
+.foot{
+/* border: 2px solid black; */
+display: inline-block;
+}
+.fH{
+    font-size: 33px;
+}
+.foot1{
+    display: flex;
+    align-items: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 22px 0px;
+    font-size: 19px;
+}
+.foot1 img{
+    width: 23px;
+    height: 25px;
+}
+.foot1N{
+    margin-left: 5px;
 }
