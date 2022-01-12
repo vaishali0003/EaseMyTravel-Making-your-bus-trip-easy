@@ -38,7 +38,7 @@ FrontEnd Development and BackEnd Development
 
 ## Support
 
-For support, email vaishalidwivedi03@.com 
+For support, email vaishalidwivedi03@gmail.com 
 
 
 ## Lessons Learned
@@ -50,5 +50,5 @@ But every challenge plays an important role in making a good developer.We take t
 
 ## Feedback
 
-If you have any feedback, please reach out to us at vaishalidwivedi03.com
+If you have any feedback, please reach out to us at vaishalidwivedi03@gmail.com
 
